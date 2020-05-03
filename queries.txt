@@ -1,0 +1,5 @@
+the following points are needs to be clarified,
+
+- At the most bottom side the queries colomn// client address fill side not working properly
+- between the pages,, showing some spaces
+- 
