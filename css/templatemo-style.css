@@ -292,8 +292,6 @@ header .social-icon li a
 	}
 #team .team-wrapper:hover
 	{
-		cursor: pointer;
-		opacity: 0.4;
 		bottom: 4px;
 	}
 #team .team-wrapper .team-des
@@ -319,11 +317,11 @@ header .social-icon li a
 	}
 #service .col-md-4:hover
 	{
-		background: #2597d3;
+		background: #96c7e1;
 	}
 #service .active
 	{
-		background: #28a7e9;
+		background: #c5e6f8;
 		padding: 40px;
 	}
 #service .fa
