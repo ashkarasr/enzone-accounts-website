@@ -325,53 +325,10 @@ We’ll provide you with support and advice to help you work smarter, make bette
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">REQUEST A <span>CALL BACK</span></h2>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
-    					<form action="mail.php" method="post">
-    						<label>NAME</label>
-    						<input name="fullname" type="text" class="form-control" id="fullname" required>
-   						  	
-                            <label>EMAIL</label>
-    						<input name="email" type="email" class="form-control" id="email" required>
-   						  	
-                            <label>MESSAGE</label>
-    						<textarea name="message" rows="4" class="form-control" id="message" required></textarea>
-    						
-                            <input type="submit" id="submit" class="form-control">
-                            <p id="suc"></p>
-    					</form>
-              <!-- <script>
-            $(document).ready(function(){
-            $("#submit").click(function(){
-            var nm = $("#fullname").val();
-            var em = $("#email").val();
-            var ms = $("#message").val();
-            // Returns successful data submission message when the entered information is stored in database.
-            var dataString = 'name='+ nm +'&email='+ em + '&cmt='+ ms;
-            if(nm==''||em==''||ms=='')
-            {
-            $("#suc").text("Please Fill All Fields");
-            }
-            else
-            {
-            $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: dataString,
-            cache: false,
-            success: function(result){
-            $("#suc").text(result);
-            }
-            });
-            }
-            return false;
-            });
-            });
-          </script> -->
+    					
 <!-- modify this form HTML and place wherever you want your form -->
 
-<form id="my-form"
-  action="https://formspree.io/mknqpdey"
-  method="POST"
->
+<form id="my-form" action="https://formspree.io/mknqpdey" method="POST">
   <label>NAME</label>
     						<input name="fullname" type="text" class="form-control" id="fullname" required>
    						  	
