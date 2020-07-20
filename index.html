@@ -372,11 +372,16 @@ We’ll provide you with support and advice to help you work smarter, make bette
   action="https://formspree.io/mknqpdey"
   method="POST"
 >
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
+  <label>NAME</label>
+    						<input name="fullname" type="text" class="form-control" id="fullname" required>
+   						  	
+                            <label>EMAIL</label>
+    						<input name="email" type="email" class="form-control" id="email" required>
+   						  	
+                            <label>MESSAGE</label>
+    						<textarea name="message" rows="4" class="form-control" id="message" required></textarea>
+    						
+                            <input type="submit" id="submit" class="form-control">
   <p id="my-form-status"></p>
 </form>
 
